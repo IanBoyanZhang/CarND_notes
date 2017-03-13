@@ -25,14 +25,16 @@ Requirements
 
 Using the given data, competitors must:
 
-1. automatically detect and locate obstacles in 3D space to inform the driver/SDC system (e.g. using deep learning and classification approaches)
+1. automatically detect and locate obstacles in 3D space to inform the driver/SDC system (e.g. using deep learning and classification approaches) Detect?
 
-2. Fuse detection output from camera and LIDAR sensors
+2. Fuse detection output from camera and LIDAR sensors  ? K
 
-3. Remove noise and environment false detections
+3. Remove noise and environment false detections ? Filtering
 
 ## Evaluation and judging criteria
 
 PASCAL criteria for object detection and orientation estimation performance
 
 Moderate evaluation parameters for ranking
+
+[Evaluate object](http://www.cvlibs.net/datasets/kitti/eval_object.php)
